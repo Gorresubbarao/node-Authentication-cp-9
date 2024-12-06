@@ -1,0 +1,32 @@
+POST https://venkatasubbaraohow31njscpfvwof.drops.nxtwave.tech/register
+Content-Type : application/json
+
+{
+  "username": "adam_richard12",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+###
+
+POST https://venkatasubbaraohow31njscpfvwof.drops.nxtwave.tech/login
+Content-Type : application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard@123"
+}
+
+
+###
+
+PUT https://venkatasubbaraohow31njscpfvwof.drops.nxtwave.tech/change-password
+Content-Type : application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
